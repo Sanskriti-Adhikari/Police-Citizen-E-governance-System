@@ -73,14 +73,14 @@ Trial 1 focuses on backend system implementation.
 
 ## Backend
 
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
+- cd backend
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- uvicorn main:app --reload
 
 ## Frontend
 
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
